@@ -27,6 +27,6 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
 // Controllo numero
 
 $age = $_GET['age'];
-var_dump(is_int($age));
+var_dump( is_numeric($age));
 
 ?>
