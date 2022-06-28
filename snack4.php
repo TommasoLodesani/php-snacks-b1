@@ -6,17 +6,17 @@
 
 $my_array = [];
 
-for($i=0; $i < 15; $i++  ){
+while (count($my_array)< 15){
     $number = rand(1, 15);
 
     if(!in_array($number,$my_array )){
         $my_array[] = $number;
 
     }
-}
+};
+
 
 var_dump($my_array);
-
 
 
 
